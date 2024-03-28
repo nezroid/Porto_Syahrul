@@ -1,0 +1,49 @@
+.Container {
+    display: flex;
+    flex-direction: column; /* Mengatur elemen-elemen secara vertikal */
+    justify-content: center; /* Pusatkan elemen-elemen secara vertikal */
+    align-items: center; /* Pusatkan elemen-elemen secara horizontal */
+    height: 100vh; /* Atur tinggi container sesuai tinggi layar */
+  }
+  
+  .Flexbox {
+    display: flex;
+    flex-direction: column; /* Mengatur elemen-elemen secara vertikal */
+    align-items: flex-start; /* Atur elemen-elemen di sisi kiri */
+  }
+  
+  .Text {
+    margin: 12px 0;
+    font-size: 1.15rem;
+    font-weight: 600;
+  }
+  
+  .Box {
+    height: 75px;
+    width: 465px;
+    background-color: #ffffff;
+    margin-bottom: 10px; /* Beri jarak antara elemen */
+  }
+  
+  .Button {
+    height: 40px;
+    width: 80px;
+    background-color: #1b0fff;
+    color: white;
+    font-size: 1.05rem;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+  }
+  
+  .comment {
+    height: 75px;
+    width: 465px;
+    background-color: #ececec; /* Ganti warna latar belakang */
+    border-radius: 5px;
+    margin-top: 10px; /* Beri jarak atas antara elemen */
+    padding: 10px; /* Beri padding agar isi komentar terlihat lebih baik */
+    box-sizing: border-box; /* Pastikan padding tidak mempengaruhi dimensi elemen */
+    word-break: break-all;
+  }
+  
